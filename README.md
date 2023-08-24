@@ -2,3 +2,5 @@
 
 SASS/SCSS
 DOM
+mixins
+&:before
