@@ -46,6 +46,35 @@
 					top: -24px
 					left: -33px
 					background-color: #000
-		&__item
-			&-head
-				padding: 45px 0 0 100px
+	&__item
+		position: relative
+		&::before
+			content: ''
+			height: 1px
+			width: 80px
+			position: absolute
+			background-color: #000
+			top: 60px
+			left: -33px
+
+		&-head
+			position: relative
+			padding: 43px 0 0 100px
+		&-icon
+			background-color: green
+			position: absolute
+			top: 45px
+			left: 45px
+			@include before_circle
+			img
+				position: absolute
+				top: 15px
+				left: 15px
+		&-location
+			line-height: 18px
+			font-size: 12px
+		&-body
+			padding-left: 43px
+			margin-top: 10px
+			font-size: 12px
+			line-height: 18px
