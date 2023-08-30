@@ -15,7 +15,8 @@
 		margin-top: 60px
 		padding: 0 15px
 		display: grid
-		grid-template-columns: 270px 270px 270px 270px 
+        grid-template: repeat(2, minmax(270px, auto)) / repeat(4, 270px)
+        grid-auto-rows: minmax(270px, auto)
 		gap: 10px
 
 	&__rectangle
