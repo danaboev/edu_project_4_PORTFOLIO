@@ -21,3 +21,7 @@ form
      email
      textarea
      
+triggers
+     -chekbox
+     -policy
+     
