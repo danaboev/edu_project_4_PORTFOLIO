@@ -6,12 +6,18 @@ CSS grid
    grid template
    grid column
    grid row
+   auto
      minmax()
      repeat()
 mixins
-&:before
-&:after
-&:hover
-js-menu
-
-
+     &:before
+     &:after
+     &:hover
+js
+     -menu
+     -counter
+form
+     name
+     email
+     textarea
+     
