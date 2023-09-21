@@ -24,4 +24,5 @@ form
 triggers
      -chekbox
      -policy
+css object-fit:cover
      
