@@ -3,10 +3,10 @@
 SASS/SCSS
 DOM
 CSS grid
-   grid template
-   grid column
-   grid row
-   auto
+  - grid template
+  - grid column
+  - grid row
+  - auto
      minmax()
      repeat()
 mixins
@@ -14,15 +14,20 @@ mixins
      &:after
      &:hover
 js
-     -menu
-     -counter
+     - menu
+     - counter
 form
-     name
-     email
-     textarea
+    - name
+    - email
+    - textarea
      
 triggers
-     -chekbox
-     -policy
+     - chekbox
+     - policy
 css object-fit:cover
-     
+media
+ - max-width
+ - grid
+ - img
+   
+
