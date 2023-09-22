@@ -25,4 +25,9 @@ triggers
      -chekbox
      -policy
 css object-fit:cover
-     
+media
+ -max-width
+ - grid
+ - img
+   
+
