@@ -12,5 +12,8 @@
     "gulp-sass": "^5.1.0",
     "imagemin": "^7.0.1",
     "sass": "^1.66.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
